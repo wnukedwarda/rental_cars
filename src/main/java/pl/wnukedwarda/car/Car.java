@@ -1,4 +1,4 @@
-package pl.wnukedwarda.cd;
+package pl.wnukedwarda.car;
 
 import java.sql.Date;
 

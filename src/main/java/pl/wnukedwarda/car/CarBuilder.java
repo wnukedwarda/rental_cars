@@ -1,4 +1,4 @@
-package pl.wnukedwarda.cd;
+package pl.wnukedwarda.car;
 
 import java.sql.Date;
 
@@ -15,56 +15,58 @@ public class CarBuilder {
     private Date serviceDate;
     private boolean carStatus;
 
-    public CarBuilder setCarId(String carId){
+    public CarBuilder setCarId(String carId) {
         this.carId = carId;
         return this;
     }
 
-    public CarBuilder setMake(String make){
+    public CarBuilder setMake(String make) {
         this.make = make;
         return this;
     }
 
-    public CarBuilder setModel(String model){
+    public CarBuilder setModel(String model) {
         this.model = model;
         return this;
     }
 
-    public CarBuilder setYearbook(int yearbook){
+    public CarBuilder setYearbook(int yearbook) {
         this.yearbook = yearbook;
         return this;
     }
 
-    public CarBuilder setBodyType(String bodyType){
+    public CarBuilder setBodyType(String bodyType) {
         this.bodyType = bodyType;
         return this;
     }
 
-    public CarBuilder setEngineSize(double engineSize){
+    public CarBuilder setEngineSize(double engineSize) {
         this.engineSize = engineSize;
         return this;
     }
 
-    public CarBuilder setFuel(String fuel){
+    public CarBuilder setFuel(String fuel) {
         this.fuel = fuel;
         return this;
     }
 
-    public CarBuilder setHorsePower(double horsePower){
+    public CarBuilder setHorsePower(double horsePower) {
         this.horsePower = horsePower;
         return this;
     }
 
-    public CarBuilder setServiceDate(Date serviceDate){
+    public CarBuilder setServiceDate(Date serviceDate) {
         this.serviceDate = serviceDate;
         return this;
     }
 
-    public CarBuilder setCarStatus(boolean carStatus){
+    public CarBuilder setCarStatus(boolean carStatus) {
         this.carStatus = carStatus;
         return this;
     }
 
-    public Car build(){ return new Car(carId,make,model,yearbook,bodyType,engineSize,fuel,horsePower,serviceDate,carStatus); }
+    public Car build() {
+        return new Car(carId, make, model, yearbook, bodyType, engineSize, fuel, horsePower, serviceDate, carStatus);
+    }
 
 }
