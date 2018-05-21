@@ -8,6 +8,7 @@ CREATE TABLE cars(
     fuel varchar(20) NOT NULL,
     horse_power double NOT NULL,
     service_date date NOT NULL,
-    car_status tinyint(1) NOT NULL DEFAULT true,
+    car_status boolean NOT NULL DEFAULT true,
+    client_id int(11) default null,
     UNIQUE KEY car_id (car_id)
     );

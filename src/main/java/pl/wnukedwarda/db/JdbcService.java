@@ -7,6 +7,7 @@ public class JdbcService {
 
     protected final ConnectionProvider connectionProvider;
 
+
     public JdbcService(ConnectionProvider connectionProvider) {
         this.connectionProvider = connectionProvider;
     }

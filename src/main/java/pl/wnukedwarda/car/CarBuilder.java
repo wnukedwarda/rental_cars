@@ -4,7 +4,7 @@ import java.sql.Date;
 
 public class CarBuilder {
 
-    private String carId;
+    private int carId;
     private String make;
     private String model;
     private int yearbook;
@@ -14,8 +14,9 @@ public class CarBuilder {
     private double horsePower;
     private Date serviceDate;
     private boolean carStatus;
+    private int clientId;
 
-    public CarBuilder setCarId(String carId) {
+    public CarBuilder setCarId(int carId) {
         this.carId = carId;
         return this;
     }
@@ -65,8 +66,14 @@ public class CarBuilder {
         return this;
     }
 
+    public CarBuilder setClientId(int clientId) {
+        this.clientId = clientId;
+        return this;
+    }
+
     public Car build() {
-        return new Car(carId, make, model, yearbook, bodyType, engineSize, fuel, horsePower, serviceDate, carStatus);
+        return new Car(carId, make, model, yearbook, bodyType, engineSize,
+                fuel, horsePower, serviceDate, carStatus, clientId);
     }
 
 }

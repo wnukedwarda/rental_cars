@@ -4,7 +4,7 @@ import java.sql.Date;
 
 public class Car {
 
-    private String carId;
+    private int carId;
     private String make;
     private String model;
     private int yearbook;
@@ -14,8 +14,11 @@ public class Car {
     private double horsePower;
     private Date serviceDate;
     private boolean carStatus;
+    private int clientId;
 
-    public Car(String carId, String make, String model, int yearbook, String bodyType, double engineSize, String fuel, double horsePower, Date serviceDate, boolean carStatus) {
+    public Car(int carId, String make, String model, int yearbook, String bodyType,
+               double engineSize, String fuel, double horsePower, Date serviceDate,
+               boolean carStatus, int clientId) {
         this.carId = carId;
         this.make = make;
         this.model = model;
@@ -26,9 +29,10 @@ public class Car {
         this.horsePower = horsePower;
         this.serviceDate = serviceDate;
         this.carStatus = carStatus;
+        this.clientId = clientId;
     }
 
-    public String getCarId() { return carId; }
+    public int getCarId() { return carId; }
 
     public String getMake() { return make; }
 

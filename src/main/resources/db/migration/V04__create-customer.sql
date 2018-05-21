@@ -1,0 +1,4 @@
+INSERT INTO `wypozyczalnia`.`customers` (`client_id`, `first_name`, `last_name`, `password`, `email`, `city`, `contact`) VALUES ('1', 'Ferdek', 'Kiepski', 'mocnyFull', 'ferdynand@nierob.com', 'Wrocław', '12345678');
+INSERT INTO `wypozyczalnia`.`customers` (`client_id`, `first_name`, `last_name`, `password`, `email`, `city`, `contact`) VALUES ('2', 'Marian', 'Paździoch', 'menda', 'kanalia@nierob.com', 'Wrocław', '01010101');
+INSERT INTO `wypozyczalnia`.`customers` (`client_id`, `first_name`, `last_name`, `password`, `email`, `city`, `contact`) VALUES ('3', 'Arnold', 'Boczek', 'masarnia', 'grubas@nierob.com', 'Wrocław', '11111111');
+INSERT INTO `wypozyczalnia`.`customers` (`client_id`, `first_name`, `last_name`, `password`, `email`, `city`, `contact`) VALUES ('4', 'Halina', 'Kiepska', 'halinka', 'piguła@nierob.com', 'Wrocław', '999');
