@@ -67,4 +67,8 @@ public class Car {
                 ", carStatus=" + carStatus +
                 '}';
     }
+
+    public int getClientId() {
+        return clientId;
+    }
 }

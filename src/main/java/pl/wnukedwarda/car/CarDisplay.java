@@ -1,7 +1,9 @@
-package pl.wnukedwarda.carService;
+package pl.wnukedwarda.car;
 
 import pl.wnukedwarda.db.ConnectionProvider;
+import pl.wnukedwarda.db.DriverManagerCP;
 import pl.wnukedwarda.db.JdbcService;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -37,3 +39,4 @@ public class CarDisplay extends JdbcService {
                 " Client ID: " + rs.getInt(11));
     }
 }
+

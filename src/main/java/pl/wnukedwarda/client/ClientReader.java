@@ -1,7 +1,6 @@
 package pl.wnukedwarda.client;
 
-import pl.wnukedwarda.car.Car;
-import pl.wnukedwarda.car.CarBuilder;
+
 import pl.wnukedwarda.db.ConnectionProvider;
 import pl.wnukedwarda.db.JdbcService;
 

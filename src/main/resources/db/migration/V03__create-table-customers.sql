@@ -1,5 +1,6 @@
 CREATE TABLE customers(
   client_id int(11) NOT NULL,
+  username varchar(20) NOT NULL,
   first_name varchar(20) NOT NULL,
   last_name varchar(20) NOT NULL,
   password varchar(20) NOT NULL,

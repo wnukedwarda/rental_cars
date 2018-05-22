@@ -3,10 +3,9 @@ package pl.wnukedwarda.carService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.wnukedwarda.car.Car;
-import pl.wnukedwarda.db.ConnectionProvider;
+import pl.wnukedwarda.car.CarFinder;
 import pl.wnukedwarda.db.DriverManagerCP;
 
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
