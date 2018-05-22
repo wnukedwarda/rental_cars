@@ -1,4 +1,4 @@
-package pl.wnukedwarda.carService;
+package pl.wnukedwarda.car;
 
 import pl.wnukedwarda.car.Car;
 import pl.wnukedwarda.car.CarBuilder;
@@ -132,3 +132,4 @@ public class CarFinder extends JdbcService {
         return car;
     }
 }
+
